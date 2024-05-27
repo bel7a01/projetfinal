@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    background-color: #141464;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color: white;
+    font-size: 1.7rem;
+    margin: 10rem;
+    border-radius: 1.5rem;
+    background-image: url("../../assets/background1.png");
+
+
+}
+
+.title {
+    font-family: 'Manrope';
+    font-weight: 800;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.7rem;
+    width: 85%;
+    height: 10%;
+
+
+}
+
+.dort {
+    background-color: #fcea1c;
+    display: flex;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope';
+    font-weight: 800;
+    color: #141464;
+    cursor: pointer;
+    border: none;
+}
+
+.draw {
+    background-color: #1bc4db;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: 'Manrope';
+    color: #141464;
+    cursor: pointer;
+    border: none;
+}
+
+.real {
+    background-color: white;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141464;
+    font-family: 'Manrope';
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+}
+
+.real:hover {
+    scale: 105%;
+}
+
+.draw:hover {
+    scale: 105%;
+}
+
+.dort:hover {
+    scale: 105%;
+}

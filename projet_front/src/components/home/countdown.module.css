@@ -1,0 +1,34 @@
+.timerContainer {
+    display: flex;
+    column-gap: 10px;
+    letter-spacing: 8px;
+    border: solid 0.16rem #1bc4db;
+    padding: 3em;
+    border-radius: 2.5em;
+    background-color: hsl(229, 100%, 53%, 0.1);
+}
+
+.day,
+.hours,
+.min,
+.sec,
+.del {
+    font-size: 6.5rem;
+    font-family: 'Manrope';
+    font-weight: 200;
+    color: white;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cont1 {
+    font-family: 'Manrope';
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: white;
+}

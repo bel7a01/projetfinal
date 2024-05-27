@@ -1,0 +1,71 @@
+.data-table {
+  width: 70vw;
+  position: relative;
+  border-collapse: collapse;
+  /* Assure que les bordures des cellules sont fusionnées */
+  border: 1px solid #2fd5ff;
+  /* Bordure extérieure pour tout le tableau */
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+  /* Ombre pour tout le tableau */
+  border-radius: 10px;
+  margin-left: 230px;
+  margin-top: 50px;
+  font-family: 'Manrope';
+  font-weight: 800;
+  color: white;
+  height: 50vh;
+  background-image: url(../../assets/Untitled-33.png);
+  background-position: center;
+  background-size: 100%;
+  background-color: white;
+
+}
+
+.data-table th {
+  text-align: center;
+  padding: 1.5rem;
+  border: none;
+  color: white;
+  font-size: 2rem;
+
+}
+
+.data-table td {
+  text-align: left;
+  padding: 1.5rem;
+  border: none;
+  color: black;
+
+
+}
+
+.data-table th {
+  background-color: #141464;
+  height: 2rem;
+  font-size: 1rem;
+
+
+}
+
+.butt {
+  background: none;
+  border: none;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+
+
+.butt:hover {
+  background-color: red;
+  scale: 120%;
+}
+
+
+.imgs {
+  height: 2.1rem;
+  width: 2.1rem;
+  background: none;
+}

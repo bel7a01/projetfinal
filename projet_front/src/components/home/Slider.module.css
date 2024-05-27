@@ -1,0 +1,43 @@
+.Container {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+   
+  }
+.Image {
+    width: 100%; /* Makes the image fill the container */
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height:475px;
+    border-radius: 5px;
+  }
+.Container1{
+  
+    overflow: hidden;
+    position: relative; /* Makes this a reference for absolute positioning */
+    /* Ensure the rest of your styling is intact */
+    width:900px;
+    height: 500px;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+} 
+/* .manrope-<uniquifier> {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+.text{
+    font-family:"Manrope", sans-serif; 
+    font-weight: 700;
+    font-size: 29px;
+    color: #f1f3f8;
+    position: relative;
+    bottom: 450px;
+    left:30px;
+}

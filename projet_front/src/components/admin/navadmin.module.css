@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding-top: 2em;
+    background-color: #0E1E5B;
+    color: white;
+    padding-bottom: 1.5em;
+    padding-left: 11.5rem;
+    column-gap: 26rem;
+    background-image: url('../../assets/Untitled-32.png');
+    background-size: 30%;
+    background-position: center;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    column-gap: 4em;
+}
+
+.nav1 .p {
+    font-family: 'Manrope';
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 0.06rem;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+
+}
+
+.p::after {
+    content: '';
+    position: absolute;
+    background-color: #0d3aff;
+    height: 0.5px;
+    width: 0%;
+    left: -0.5px;
+    bottom: -2px;
+    transition: width .2s;
+
+}
+
+.p:hover::after {
+    width: 100%;
+}
+
+.p:hover {
+    font-weight: 800;
+    color: #0d3aff;
+}
+
+
+.nav button {
+    background-color: transparent;
+    border: solid 0.1em #0d3aff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 0.8em;
+    border-radius: 0.6em;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    letter-spacing: 0.06rem;
+}
+
+.nav button:hover {
+    background-color: #0d3aff;
+    cursor: pointer;
+    scale: 113%;
+}
+
+img {
+    height: 4.5rem;
+}

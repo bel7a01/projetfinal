@@ -1,0 +1,19 @@
+.container {
+    background-color: #141464;
+    height: 50vh;
+    background-image: url('../../assets/footer1.png');
+    background-size: cover;
+    background-position: 50% 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.img {
+    height: 16rem;
+    text-align: center;
+}
+
+.img img {
+    height: 16rem;
+}
